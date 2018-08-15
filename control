@@ -1,0 +1,9 @@
+Package: com.andyjhall.internalalert
+Name: InternalAlert
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Root User Enabled
+Maintainer: Andy Hall
+Author: Andy Hall
+Section: Tweaks
