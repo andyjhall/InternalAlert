@@ -21,7 +21,7 @@
     [[%c(SBLockScreenManager) sharedInstance] lockUIFromSource:1 withOptions:nil];
   dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.7 * NSEC_PER_SEC));
   dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-    [[objc_getClass("JBBulletinManager") sharedInstance] showBulletinWithTitle:@"Root Enabled" message:@"Root user has been enabled, operations as root can be dangerous." bundleID:@"com.apple.Preferences"];
+    [[objc_getClass("JBBulletinManager") sharedInstance] showBulletinWithTitle:@"Root User Enabled" message:@"Operations done as root can be dangerous.It is advised that you disable the root user when you have completed this operation." bundleID:@"com.apple.Preferences"];
   });
 }
 %end
